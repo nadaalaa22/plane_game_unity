@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6968907603852287804, guid: 357b19f35f661fe48a3346351a0af2d4, type: 3}
+      propertyPath: damage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8894302770106848098, guid: 357b19f35f661fe48a3346351a0af2d4, type: 3}
       propertyPath: m_Name
-      value: rock-3_0
+      value: rock-3_0 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8894302770106848102, guid: 357b19f35f661fe48a3346351a0af2d4, type: 3}
       propertyPath: m_Color.b
@@ -67,5 +71,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 357b19f35f661fe48a3346351a0af2d4, type: 3}

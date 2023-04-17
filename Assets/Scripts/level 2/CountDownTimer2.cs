@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class CountDownTimer : MonoBehaviour
+public class CountDownTimer2 : MonoBehaviour
 {
     private float currentTime = 0f;
-    private float startingTime = 10f;
+    private float startingTime = 30f;
     [SerializeField] private Text countdown;
     void Start()
     {
@@ -22,7 +22,7 @@ public class CountDownTimer : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
 }

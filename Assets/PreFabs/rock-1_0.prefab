@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8894302770106848097}
   - component: {fileID: 221996641898704335}
   - component: {fileID: -8363555082910746024}
-  - component: {fileID: 7082656318977471735}
   - component: {fileID: -4710423732607982044}
   - component: {fileID: -3199984656778139261}
+  - component: {fileID: -6158157750871111022}
   m_Layer: 0
   m_Name: rock-1_0
   m_TagString: Enemy
@@ -140,20 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   audioSource: {fileID: -3199984656778139261}
---- !u!114 &7082656318977471735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8894302770106848098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea1d178e9aa59ce4083e8a91f4d8fc15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  damage: 1
 --- !u!50 &-4710423732607982044
 Rigidbody2D:
   serializedVersion: 4
@@ -271,3 +257,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6158157750871111022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8894302770106848098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1d178e9aa59ce4083e8a91f4d8fc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  damage: 1

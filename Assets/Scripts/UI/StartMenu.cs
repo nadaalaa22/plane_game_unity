@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndMenu : MonoBehaviour
+public class StartMenu : MonoBehaviour
 {
-    
-    public void StartGame()
+    public void EsayGame()
     {   // to open the next scen
         // 1 in bulid screen 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2 );
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void ReStartGame()
+    public void HardGame()
     {   // to open the next scen
         // 1 in bulid screen 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 }

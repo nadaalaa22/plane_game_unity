@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     float maxX;
     private string ENEMY_TAG = "Enemy";
     private Animator animator;
-    
+    [SerializeField] private AudioSource AudioSource;
+
     void Start()
     {
         FindBoundaries();
@@ -45,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(ENEMY_TAG))
         {
+           // AudioSource.Play();
             Die();
 
         }
